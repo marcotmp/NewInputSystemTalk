@@ -22,10 +22,4 @@ public class Script3 : MonoBehaviour
         jump.performed += (CallbackContext c) => { };
 
     }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }

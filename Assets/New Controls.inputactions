@@ -15,9 +15,9 @@
                 },
                 {
                     "name": "Move",
-                    "type": "Button",
+                    "type": "Value",
                     "id": "64ee0914-19df-4498-9ba9-882b486f485b",
-                    "expectedControlType": "Button",
+                    "expectedControlType": "",
                     "processors": "",
                     "interactions": ""
                 },
@@ -34,7 +34,7 @@
                 {
                     "name": "",
                     "id": "23c2b108-1c1f-4319-9a9a-1cb6038b13aa",
-                    "path": "",
+                    "path": "<Keyboard>/j",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -45,7 +45,7 @@
                 {
                     "name": "",
                     "id": "09e44ac3-9b43-4c59-b98e-2134d45209f7",
-                    "path": "",
+                    "path": "<Gamepad>/leftStick/left",
                     "interactions": "",
                     "processors": "",
                     "groups": "",

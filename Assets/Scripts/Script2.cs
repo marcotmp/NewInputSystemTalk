@@ -20,7 +20,6 @@ public class Script2 : MonoBehaviour
         move.started += MoveStarted;
         move.performed += MovePerformed;
         move.canceled += MoveCanceled;
-
     }
 
     private void OnDestroy()
@@ -28,6 +27,10 @@ public class Script2 : MonoBehaviour
         jump.started -= JumpStarted;
         jump.performed -= JumpPerformed;
         jump.canceled -= JumpCanceled;
+
+        move.started -= MoveStarted;
+        move.performed -= MovePerformed;
+        move.canceled -= MoveCanceled;
     }
 
     private void OnEnable()
@@ -39,6 +42,7 @@ public class Script2 : MonoBehaviour
     private void OnDisable()
     {
         jump.Disable();
+        move.Disable();
     }
 
     // Update is called once per frame
